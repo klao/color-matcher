@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.outer {
+    margin: 50px auto;
+    border: 10px solid gray;
+    display: flex;
+    width: 40vw;
+    height: 20vw;
+}
+
+.color {
+    width: 50%;
+}
+
+.controls {
+    margin: 100px auto;
+    display: flex;
+    width: 40vw;
+}
+
+.control {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
